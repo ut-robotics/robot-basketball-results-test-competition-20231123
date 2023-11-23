@@ -577,12 +577,12 @@
             "runs": [{"startTime": 1700763856251, "endTime": 1700763916264}]
           },
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1700764018298, "isValid": true}], []],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 6,
+            "duration": 28093,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1700763990208, "endTime": null}]
@@ -749,12 +749,12 @@
         "runs": [{"startTime": 1700763856251, "endTime": 1700763916264}]
       },
       {
-        "scores": [[], []],
+        "scores": [[{"time": 1700764018298, "isValid": true}], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 7,
+        "duration": 28094,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1700763990208, "endTime": null}]
