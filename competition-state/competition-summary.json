@@ -308,7 +308,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -365,7 +365,7 @@
             "fouls": [[{"time": 1700762659561}, {"time": 1700762716900}], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60052,
             "timeLimit": 60000,
             "winnerIndex": -1,
@@ -376,7 +376,7 @@
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {"result": "tied"},
         "ballPlacement": [
           [0, 0],
           [0.69, 0.47],
@@ -469,34 +469,34 @@
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "team-electronics", "name": "Team Electronics"},
-        "score": 0,
-        "tieBreakScore": 0.8
-      },
-      {
-        "robot": {"id": "delta-y", "name": "Delta Y"},
-        "score": 0,
-        "tieBreakScore": 0.9
-      },
-      {
         "robot": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
         "score": 0,
         "tieBreakScore": 0.9
       },
       {
-        "robot": {"id": "ois3", "name": "Õis 3"},
-        "score": 0.8,
-        "tieBreakScore": 0
+        "robot": {"id": "team-electronics", "name": "Team Electronics"},
+        "score": 0.5,
+        "tieBreakScore": 1.3
       },
       {
-        "robot": {"id": "hi-bot", "name": "Hi...Bot"},
-        "score": 0.9,
-        "tieBreakScore": 0
+        "robot": {"id": "delta-y", "name": "Delta Y"},
+        "score": 0.5,
+        "tieBreakScore": 1.4
+      },
+      {
+        "robot": {"id": "ois3", "name": "Õis 3"},
+        "score": 0.8,
+        "tieBreakScore": 0.5
       },
       {
         "robot": {"id": "tasujad", "name": "Tasujad"},
         "score": 0.9,
         "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "hi-bot", "name": "Hi...Bot"},
+        "score": 0.9,
+        "tieBreakScore": 0.5
       }
     ],
     "robotStartingBaskets": {
@@ -517,7 +517,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -574,7 +574,7 @@
         "fouls": [[{"time": 1700762659561}, {"time": 1700762716900}], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60052,
         "timeLimit": 60000,
         "winnerIndex": -1,
@@ -585,7 +585,7 @@
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {"result": "tied"},
     "ballPlacement": [
       [0, 0],
       [0.69, 0.47],
