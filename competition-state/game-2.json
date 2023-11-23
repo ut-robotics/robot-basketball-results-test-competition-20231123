@@ -1,0 +1,34 @@
+{
+  "id": 2,
+  "robots": [
+    {"id": "delta-y", "name": "Delta Y"},
+    {"id": "hi-bot", "name": "Hi...Bot"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.4, 1.01],
+    [-1.4, -1.01],
+    [0.04, -0.26],
+    [-0.04, 0.26],
+    [0.68, 0.23],
+    [-0.68, -0.23],
+    [-0.62, -0.54],
+    [0.62, 0.54],
+    [0.66, 1.26],
+    [-0.66, -1.26]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": 1,
+  "robots": [
+    {"id": "team-electronics", "name": "Team Electronics"},
+    {"id": "ois3", "name": "Õis 3"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.56, 1.26],
+    [-1.56, -1.26],
+    [-1.13, 0.82],
+    [1.13, -0.82],
+    [-1.47, 0.72],
+    [1.47, -0.72],
+    [-2.1, -0.7],
+    [2.1, 0.7],
+    [-1.51, -0.1],
+    [1.51, 0.1]
+  ]
+}
