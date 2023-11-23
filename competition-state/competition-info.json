@@ -24,7 +24,7 @@
       {"id": "tasujad", "name": "Tasujad"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "gameIDs": [1, 2, 3],
     "byes": [],
     "robotStartingBaskets": {
       "team-electronics": ["magenta", "blue"],
