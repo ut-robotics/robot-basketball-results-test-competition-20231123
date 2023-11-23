@@ -1,0 +1,34 @@
+{
+  "id": 9,
+  "robots": [
+    {"id": "ois3", "name": "Õis 3"},
+    {"id": "hi-bot", "name": "Hi...Bot"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.32, 0.27],
+    [1.32, -0.27],
+    [0.37, -1.06],
+    [-0.37, 1.06],
+    [-0.86, -0.18],
+    [0.86, 0.18],
+    [2.13, -1.22],
+    [-2.13, 1.22],
+    [0.24, 1.12],
+    [-0.24, -1.12]
+  ]
+}
