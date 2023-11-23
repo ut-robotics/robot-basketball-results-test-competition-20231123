@@ -173,19 +173,21 @@
                 {"time": 1700760913122, "isValid": true},
                 {"time": 1700760920991, "isValid": true},
                 {"time": 1700760925269, "isValid": true},
-                {"time": 1700760933539, "isValid": true}
+                {"time": 1700760933539, "isValid": true},
+                {"time": 1700761011431, "isValid": true}
               ]
             ],
             "fouls": [[{"time": 1700760940996}, {"time": 1700760994064}], []],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
+            "hasEnded": true,
             "isConfirmed": false,
-            "duration": 54438,
+            "duration": 60006,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1700760900922, "endTime": 1700760932090},
-              {"startTime": 1700760961264, "endTime": 1700760984534}
+              {"startTime": 1700760961264, "endTime": 1700760984534},
+              {"startTime": 1700761004207, "endTime": 1700761009775}
             ]
           }
         ],
@@ -356,19 +358,21 @@
             {"time": 1700760913122, "isValid": true},
             {"time": 1700760920991, "isValid": true},
             {"time": 1700760925269, "isValid": true},
-            {"time": 1700760933539, "isValid": true}
+            {"time": 1700760933539, "isValid": true},
+            {"time": 1700761011431, "isValid": true}
           ]
         ],
         "fouls": [[{"time": 1700760940996}, {"time": 1700760994064}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
+        "hasEnded": true,
         "isConfirmed": false,
-        "duration": 54438,
+        "duration": 60006,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1700760900922, "endTime": 1700760932090},
-          {"startTime": 1700760961264, "endTime": 1700760984534}
+          {"startTime": 1700760961264, "endTime": 1700760984534},
+          {"startTime": 1700761004207, "endTime": 1700761009775}
         ]
       }
     ],
