@@ -493,15 +493,21 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1700763552574, "isValid": true},
+                {"time": 1700763561367, "isValid": true}
+              ],
+              []
+            ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 17031,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1700763544340, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -564,94 +570,46 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
-      {"id": "ois3", "name": "Õis 3"}
+      {"id": "hi-bot", "name": "Hi...Bot"},
+      {"id": "tasujad", "name": "Tasujad"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
-          [{"time": 1700763041368, "isValid": true}],
           [
-            {"time": 1700762965681, "isValid": true},
-            {"time": 1700762978949, "isValid": true}
-          ]
+            {"time": 1700763552574, "isValid": true},
+            {"time": 1700763561367, "isValid": true}
+          ],
+          []
         ],
-        "fouls": [[], [{"time": 1700762994342}]],
+        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60012,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1700762949419, "endTime": 1700762983065},
-          {"startTime": 1700762983796, "endTime": 1700762985388},
-          {"startTime": 1700763024387, "endTime": 1700763049161}
-        ]
-      },
-      {
-        "scores": [
-          [{"time": 1700763175552, "isValid": true}],
-          [{"time": 1700763201000, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1700763167704}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60034,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 17031,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1700763134645, "endTime": 1700763158436},
-          {"startTime": 1700763194956, "endTime": 1700763231199}
-        ]
-      },
-      {
-        "scores": [
-          [{"time": 1700763353720, "isValid": true}],
-          [
-            {"time": 1700763357137, "isValid": true},
-            {"time": 1700763409368, "isValid": true},
-            {"time": 1700763415871, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1700763372183}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60087,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1700763337256, "endTime": 1700763362336},
-          {"startTime": 1700763395366, "endTime": 1700763430373}
-        ]
+        "runs": [{"startTime": 1700763544340, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "ois3", "name": "Õis 3"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.84, 0.28],
-      [-0.84, -0.28],
-      [0.44, -0.79],
-      [-0.44, 0.79],
-      [0.98, -0.43],
-      [-0.98, 0.43],
-      [-0.75, -0.88],
-      [0.75, 0.88],
-      [-0.16, -1.29],
-      [0.16, 1.29]
+      [2.09, 0.88],
+      [-2.09, -0.88],
+      [1.13, 0.01],
+      [-1.13, -0.01],
+      [1.83, -0.69],
+      [-1.83, 0.69],
+      [-0.12, -0.17],
+      [0.12, 0.17],
+      [0.7, 0.27],
+      [-0.7, -0.27]
     ]
   }
 }
