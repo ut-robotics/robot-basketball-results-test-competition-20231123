@@ -715,10 +715,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 5,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1700764858824, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -781,74 +781,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 8,
+    "id": 9,
     "robots": [
-      {"id": "delta-y", "name": "Delta Y"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "ois3", "name": "Õis 3"},
+      {"id": "hi-bot", "name": "Hi...Bot"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60004,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 6,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1700764378778, "endTime": 1700764438782}]
-      },
-      {
-        "scores": [[], [{"time": 1700764507447, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60093,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1700764501149, "endTime": 1700764561242}]
-      },
-      {
-        "scores": [
-          [{"time": 1700764719992, "isValid": true}],
-          [{"time": 1700764710133, "isValid": true}]
-        ],
-        "fouls": [[], [{"time": 1700764729626}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60002,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1700764673704, "endTime": 1700764718429},
-          {"startTime": 1700764757415, "endTime": 1700764772692}
-        ]
+        "runs": [{"startTime": 1700764858824, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "tasujad", "name": "Tasujad"},
-      "roundWinCount": 1,
-      "roundLossCount": 0,
-      "roundTieCount": 2
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.06, 0.48],
-      [0.06, -0.48],
-      [0.96, -1.35],
-      [-0.96, 1.35],
-      [-1.46, -1.39],
-      [1.46, 1.39],
-      [-0.69, -1],
-      [0.69, 1],
-      [-0.99, -0.59],
-      [0.99, 0.59]
+      [-1.32, 0.27],
+      [1.32, -0.27],
+      [0.37, -1.06],
+      [-0.37, 1.06],
+      [-0.86, -0.18],
+      [0.86, 0.18],
+      [2.13, -1.22],
+      [-2.13, 1.22],
+      [0.24, 1.12],
+      [-0.24, -1.12]
     ]
   }
 }
