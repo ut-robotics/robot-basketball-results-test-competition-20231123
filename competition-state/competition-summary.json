@@ -3,7 +3,11 @@
   "name": "Test Competition 2023-11-23",
   "robots": [
     {"id": "tasujad", "name": "Tasujad"},
-    {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
+    {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+    {"id": "delta-y", "name": "Delta Y"},
+    {"id": "team-electronics", "name": "Team Electronics"},
+    {"id": "hi-bot", "name": "Hi...Bot"},
+    {"id": "ois3", "name": "Õis 3"}
   ],
   "tournament": null
 }
